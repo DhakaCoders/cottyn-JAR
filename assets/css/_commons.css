@@ -16,15 +16,12 @@ a, a:hover, a:focus, button:hover, button:focus{
 }
 
 body {
-    background: #ffffff;
-    color: #4F4B34;
-    font-size: 19px;
+    background: #fff;
+    color: #616268;
+    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    font-family: 'Source Serif Pro', serif;
 }
-/*font-family: 'Libre Franklin', sans-serif;*/
-/*font-family: 'Work Sans', sans-serif;*/
 
 p{
 	line-height: 1.3;
@@ -35,7 +32,7 @@ a{
 	color: #F4A301;
 }
 a:hover{
-	color: #4F7F35;
+	color: #;
 }
 strong,b{
 	font-weight: 700;
@@ -122,7 +119,7 @@ Containers
 	
 }
 .container-lg{
-	max-width: 1600px;
+	
 }
 .container{
 	max-width: 1200px;
