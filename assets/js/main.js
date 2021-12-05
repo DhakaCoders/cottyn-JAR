@@ -187,6 +187,12 @@ if( $('.wpforms-error').length ){
   });
 }
 
+if( $('.hdr-search-icon a').length ){
+  $('.hdr-search-icon a').on('click', function(){
+    $('.hdr-search-icon').toggleClass('for-show-form');
+  });
+}
+
 if (windowWidth <= 767){
     if( $('.gallerySlider').length ){
       $('.gallerySlider').slick({
