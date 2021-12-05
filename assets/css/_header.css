@@ -380,9 +380,14 @@ form.search-form {
 .bnr-desc-title a:hover strong{
     color: #fff;
 }
-.bnr-buttons{
-
-}
+.bnr-buttons{}
 .bnr-buttons a{
     margin-right: 15px;
+}
+.fl-bnr-btn-active{
+    background: #0084A9;
+}
+.fl-bnr-btn-active:hover{
+    background: transparent;
+    color: #fff;
 }
