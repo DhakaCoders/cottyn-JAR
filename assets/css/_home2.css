@@ -128,7 +128,7 @@
 
 /*_________________________-customer-legality-sec- _______________________-*/
 .customer-legality-sec{
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 .customer-lgalty-cntlr{
     display: flex;
@@ -170,10 +170,45 @@
     margin: 0 auto;
     text-align: center;
 }
+.cta-module-inr P{
+    color: #fff;
+}
 .cta-module-title{
     color: #fff;
+    font-size: 36px;
 }
 .cta-module-title a{
     color: #fff;
     text-decoration: none;
+}
+.cta-module-title a:hover{
+    color: #2e3044;
+}
+.cta-btn{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.cta-btn:hover{
+    color: #fff;
+    background-color: #00647f;
+}
+/*_____________ blockqoute-cntlr- ___________________*/
+.blockqoute-cntlr{
+    padding-top: 90px;
+}
+.blockqoute-inr{
+    max-width: 970px;
+    margin: 0 auto;
+    text-align: center;
+}
+.blockqoute-inr blockquote{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #616268;
+    margin-bottom: 40px;
 }
