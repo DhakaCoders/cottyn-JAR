@@ -194,8 +194,10 @@
     background-color: #00647f;
 }
 /*_____________ blockqoute-cntlr- ___________________*/
-.blockqoute-cntlr{
+.blockqoute-cntlr {
     padding-top: 90px;
+    padding-bottom: 90px;
+    border-bottom: 2px solid#f9f9f9;
 }
 .blockqoute-inr{
     max-width: 970px;
@@ -211,4 +213,179 @@
     letter-spacing: -0.02em;
     color: #616268;
     margin-bottom: 40px;
+}
+
+/*_________________________________-expertise-grids-sec-_____________________________*/
+
+.expertise-grids-sec{
+    padding-bottom: 110px;
+}
+.module-sec-intro {
+    padding-bottom: 40px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.expertise-grids-cntlr{
+    /*border-bottom: 2px solid#f3f3f3;*/
+}
+.expertise-grids-cntlr {
+    border-bottom: 1px solid#f3f3f3;
+}
+.expertise-grids-cntlr ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -60px;
+}
+.expertise-grids-cntlr ul li{
+    max-width: 25%;
+    width: 100%;
+    padding: 0 60px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.expertise-grids-cntlr ul li.active{}
+.expertise-grid{
+    position: relative;
+}
+.expertise-grid:hover .expertise-grid-img i img{
+    transform: scale(1.1);
+}
+.expertise-grid:hover .expertise-grid-title{
+    /*color: #0084a9;*/
+}
+.expertise-grids-cntlr ul li.active .expertise-grid:after{
+    position: absolute;
+    content: "";
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    background-color: #ccc;
+    height: 4px;
+    width: 85px;
+}
+.expertise-grid-img{
+    margin-bottom: 25px;
+}
+.expertise-grid-img i{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f8fb;
+}
+.expertise-grid-img i img{
+    max-width: 70px;
+    height: auto;
+}
+.expertise-desc{
+    text-align: center;
+}
+.expertise-grid-title{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    color: #2E3044;
+}
+.expertise-grid-title a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #2E3044;
+}
+.expertise-desc .expertise-grid-title a:hover{
+    color: #0084A9!important;
+}
+.expertise-desc .expertise-grid-title:hover{
+    color: #0084A9!important;
+}
+/*_________________________-nieuws-sec-__________________________________*/
+.nieuws-sec{
+    background-color: #f3f8fb;
+    position: relative;
+}
+.nieuws-sec:before{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url('../images/nieuws-sec-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    height: 400px;
+    width: 500px;
+}
+.nieuws-cntlr{
+    padding: 100px 0;
+}
+.nieuws-intro{
+    margin-bottom: 80px;
+}
+.nieuws-grids-inr{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 -12px;
+}
+.news-grid-slider-itm-wrap{
+    max-width: 33.3333%;
+    width: 100%;
+    padding: 0 12px;
+}
+.news-grid-slider-itm {
+    background-color: #fff;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 65px;
+    padding-bottom: 40px;
+    position: relative;
+}
+.news-grid-slider-itm:after {
+    position: absolute;
+    content: "";
+    height: 17px;
+    width: 31px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../images/right-arrow.png');
+    left: 33px;
+    bottom: 35px;
+}
+.abslt-date {
+    position: absolute;
+    top: -35px;
+    left: 30px;
+    background-color: #0084aa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 76px;
+    width: 76px;
+    text-align: center;
+    border-radius: 100%;
+    flex-direction: column;
+}
+.nws-slider-itm-title{
+
+}
+.abslt-date strong{
+    color: #fff;
+    font-size: 30px;
+    display: inline-block;
+}
+.abslt-date span{
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
 }

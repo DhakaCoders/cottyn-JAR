@@ -10,6 +10,9 @@ h1,h2,h3,h4,h5,h6{
 	letter-spacing: -0.02em;
 	margin-top: 0;
 	margin-bottom: 20px;
+	transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
 }
 .fl-h1-58{
 	font-size: 58px;

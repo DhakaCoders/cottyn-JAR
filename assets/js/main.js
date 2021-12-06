@@ -186,12 +186,13 @@ if( $('.wpforms-error').length ){
     $(this).parents('.wpforms-field').removeClass('wpforms-has-error');
   });
 }
-
+// start jahir__________________________________
 if( $('.hdr-search-icon a').length ){
   $('.hdr-search-icon a').on('click', function(){
     $('.hdr-search-icon').toggleClass('for-show-form');
   });
 }
+
 
 if (windowWidth <= 767){
     if( $('.gallerySlider').length ){
