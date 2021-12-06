@@ -221,7 +221,7 @@
     padding-bottom: 110px;
 }
 .module-sec-intro {
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
@@ -314,21 +314,27 @@
 }
 .nieuws-sec:before{
     position: absolute;
+    content: "";
     left: 0;
     top: 50%;
     transform: translateY(-50%);
     background-image: url('../images/nieuws-sec-bg.png');
+    background-image: url('../images/nieuws-sec-bg.jpg');
+    /*background-image: url('../images/nieuws-sec-bg.svg');*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left top;
     height: 400px;
     width: 500px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
 }
 .nieuws-cntlr{
     padding: 100px 0;
 }
 .nieuws-intro{
-    margin-bottom: 80px;
+    /*margin-bottom: 80px;*/
 }
 .nieuws-grids-inr{
     display: flex;
@@ -344,11 +350,20 @@
 .news-grid-slider-itm {
     background-color: #fff;
     border-radius: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 20px;
+    padding-right: 15px;
     padding-top: 65px;
     padding-bottom: 40px;
     position: relative;
+}
+.news-grid-slider-itm:hover:after{
+    transform: translateX(5px);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+.news-grid-slidr-itm-inr p{
+    font-size: 14px;
 }
 .news-grid-slider-itm:after {
     position: absolute;
@@ -359,8 +374,13 @@
     background-repeat: no-repeat;
     background-position: center;
     background-image: url('../images/right-arrow.png');
-    left: 33px;
-    bottom: 35px;
+    left: 26px;
+    bottom: 25px;
+    transform: translateX(-5px);
+    transform-origin: left;
+        transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
 }
 .abslt-date {
     position: absolute;
@@ -377,7 +397,15 @@
     flex-direction: column;
 }
 .nws-slider-itm-title{
-
+    
+}
+.nws-slider-itm-title a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nws-slider-itm-title a:hover{
+    color: #0084aa;
 }
 .abslt-date strong{
     color: #fff;
@@ -388,4 +416,12 @@
     font-size: 16px;
     color: #fff;
     display: inline-block;
+}
+.more-news-btn-cntlr{
+    padding-top: 35px;
+    text-align: center;
+}
+.more-news-btn{
+    color: #0084A9;
+    background-color: transparent;
 }
