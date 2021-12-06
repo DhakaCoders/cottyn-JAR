@@ -105,23 +105,23 @@ Responsive on 767px
 // https://stackoverflow.com/questions/38686650/slick-slides-on-pagination-hover
 
 
-/**
-Slick slider
-*/
-if( $('.responsive-slider').length ){
-    $('.responsive-slider').slick({
-      dots: true,
+/**Slick slider*/
+
+if( $('.testimonialSlider').length ){
+    $('.testimonialSlider').slick({
+      // dots: true,
       infinite: false,
       autoplay: true,
-      autoplaySpeed: 4000,
+      autoplaySpeed: 120000,
       speed: 700,
-      slidesToShow: 4,
+      slidesToShow: 1,
       slidesToScroll: 1,
+      arrows:true,
       responsive: [
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 1,
             slidesToScroll: 1,
             infinite: true,
             dots: true
@@ -130,7 +130,7 @@ if( $('.responsive-slider').length ){
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 1
           }
         },
@@ -141,9 +141,6 @@ if( $('.responsive-slider').length ){
             slidesToScroll: 1
           }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
       ]
     });
 }
@@ -193,10 +190,9 @@ if( $('.hdr-search-icon a').length ){
   });
 }
 
-
 if (windowWidth <= 767){
-    if( $('.gallerySlider').length ){
-      $('.gallerySlider').slick({
+    if( $('.nieuwsSlider').length ){
+      $('.nieuwsSlider').slick({
         dots: true,
         arrows: false,
         infinite: false,
@@ -204,21 +200,6 @@ if (windowWidth <= 767){
         autoplaySpeed: 4000,
         speed: 700,
         slidesToShow: 1,
-        slidesToScroll: 1
-      });
-    }
-  }
-
-if (windowWidth <= 767){
-    if( $('.gallerySlider2').length ){
-      $('.gallerySlider2').slick({
-        dots: true,
-        arrows: false,
-        infinite: false,
-        autoplay: false,
-        autoplaySpeed: 4000,
-        speed: 700,
-        slidesToShow: 2,
         slidesToScroll: 1
       });
     }
@@ -240,20 +221,6 @@ if (windowWidth <= 767){
   }
 
 
-if (windowWidth <=768){
-  if( $('.dienstDetailsSlider').length ){
-      $('.dienstDetailsSlider').slick({
-        dots: true,
-        arrows: false,
-        infinite: false,
-        autoplay: false,
-        autoplaySpeed: 4000,
-        speed: 700,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      });
-    }
-  }
 if( $('.scrollto2').length ){
   $('.scrollto2').on('click', function(e){
     e.preventDefault();

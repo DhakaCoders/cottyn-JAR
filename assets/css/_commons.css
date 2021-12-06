@@ -217,7 +217,7 @@ img{
 	right: 0;
 	bottom: 0;
 }
-.fl-btn {
+.fl-transparent-btn ,.fl-btn {
     display: inline-block;
     vertical-align: baseline;
     min-width: 200px;
@@ -243,8 +243,8 @@ img{
 	color: #fff;
 }
 .fl-transparent-btn:hover{
-	color: #;
-	background: #;
+	color: #0084aa;
+	background: transparent;
 }
 .btn-bg-green{
 	background: #;
