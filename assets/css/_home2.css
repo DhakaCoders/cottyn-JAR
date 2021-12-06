@@ -506,7 +506,7 @@
     align-items: center;
     justify-content: center;
     margin: 0 -11px;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 }
 .team-expert-grid{
     padding: 0 11px;
@@ -538,6 +538,9 @@
 .team-experts-desc{
     padding-top: 20px;
 }
+.team-experts-desc p:last-of-type{
+    margin-bottom: 0;
+}
 .team-exprt-desc-title{
     margin-bottom: 0;
 }
@@ -546,4 +549,7 @@
 }
 .team-btn{
     background-color: #0084aa;
+}
+.experts-sec-intro{
+    padding-bottom: 15px;
 }
