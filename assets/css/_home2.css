@@ -22,7 +22,7 @@
     content: "";
     right: -90px;
     top: 17%;
-    border-radius: 0px 0px 90px 0px;
+    border-radius: 0px 90px 0px 0px;
     /*transform: matrix(1, 0, 0, -1, 0, 0);*/
     height: 145px;
     width: 90px;
@@ -160,6 +160,9 @@
 .cta-module-sec{
     padding-bottom: 100px;
 }
+.cta-module-sec .higlght-strong{
+    color: #616268;
+}
 .cta-module-cntlr{
     border-radius: 20px;
 }
@@ -225,6 +228,9 @@
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
+}
+.expertise-intro p strong{
+    color: #616268;
 }
 .expertise-grids-cntlr{
     /*border-bottom: 2px solid#f3f3f3;*/
@@ -333,6 +339,9 @@
 }
 .nieuws-intro{
     /*margin-bottom: 80px;*/
+}
+.nieuws-intro p strong{
+    color: #616268;
 }
 .nieuws-grids-inr{
     display: flex;
@@ -552,6 +561,9 @@
 }
 .experts-sec-intro{
     padding-bottom: 15px;
+}
+.experts-sec-intro p strong{
+    color: #616268;
 }
 
 /*_______________________________--over-cottyn-sec-__________________________*/
