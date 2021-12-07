@@ -123,7 +123,7 @@
     font-style: normal;
     font-weight: 600;
     letter-spacing: -0.02em;
-    color: #616268;
+    color: #fff;
 }
 
 /*_________________________-customer-legality-sec- _______________________-*/
@@ -552,4 +552,48 @@
 }
 .experts-sec-intro{
     padding-bottom: 15px;
+}
+
+/*_______________________________--over-cottyn-sec-__________________________*/
+.over-cottyn-sec{
+    padding-bottom: 80px;
+}
+.over-cottyn-cntlr{
+    background-color: #012545;
+    border-radius: 20px;
+    padding-left: 70px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 70px;
+}
+.over-cottyn-inr{
+    margin-bottom: 20px;
+}
+.over-cottyn-inr p{
+    color: #fff;
+}
+.over-cottyn-title{
+    margin-bottom: 20px;
+    color: #fff;
+}
+.over-cottyn-title a{
+    color: #fff;
+    font-size: 36px;
+    display: inline-block;
+}
+.over-cottyn-title a:hover{
+    color: #0084aa;
+}
+.cottyn-btns {
+    display: flex;
+}
+.cottyn-btns a{}
+.over-cottyn-btn{
+    display: inline-block;
+    margin-right: 15px;
+    background-color: #0084aa;
+    min-width: 138px;
+}
+.over-cottyn-btn:hover{
+    background-color: transparent;
 }
