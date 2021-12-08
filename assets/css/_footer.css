@@ -64,7 +64,7 @@
 
 
 .footer-col{
-	padding-right: 40px;
+	padding-right: 50px;
 	padding-left: 40px;
 }
 .footer-col:first-child{
@@ -143,6 +143,9 @@ ul li.mail a i{}
 	justify-content: center;
 	align-items: center;
 	font-size: 20px;
+}
+.ftr-contact-soicals >ul >li >a:hover i{
+	background-color: #04627e;
 }
 
 /*____________________________-footer-btm-____________________________________*/

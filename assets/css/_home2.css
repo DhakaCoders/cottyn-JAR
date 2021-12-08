@@ -53,9 +53,8 @@
     justify-content: center;
     align-items: center;
 }
-.banner-desc-inr p{
-    color: #fff!important;
-    font-weight: 400;
+.banner-desc-inr p {
+    color: #f0f1f3;
 }
 .banner-desc-inr p .higlght-strong{
     font-weight: 600;
@@ -124,6 +123,9 @@
     font-weight: 600;
     letter-spacing: -0.02em;
     color: #fff;
+}
+.fl-bnr-btn{
+    min-width: 190px;
 }
 
 /*_________________________-customer-legality-sec- _______________________-*/
@@ -210,12 +212,13 @@
 .blockqoute-inr blockquote{
     font-style: normal;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 1.4;
     text-align: center;
     letter-spacing: -0.02em;
-    color: #616268;
-    margin-bottom: 40px;
+    /*color: #616268;*/
+    margin-bottom: 35px;
+    color: #6c6c6c;
 }
 
 /*_________________________________-expertise-grids-sec-_____________________________*/
@@ -242,18 +245,23 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0 -60px;
+    margin: 0 -25px;
 }
 .expertise-grids-cntlr ul li{
     max-width: 25%;
     width: 100%;
-    padding: 0 60px;
+    padding: 0 25px;
     margin-bottom: 50px;
     position: relative;
 }
 .expertise-grids-cntlr ul li.active{}
-.expertise-grid{
+.expertise-grid {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .expertise-grid:hover .expertise-grid-img i img{
     transform: scale(1.1);
@@ -261,24 +269,24 @@
 .expertise-grid:hover .expertise-grid-title{
     /*color: #0084a9;*/
 }
-.expertise-grids-cntlr ul li.active .expertise-grid:after{
+.expertise-grids-cntlr ul li.active .expertise-grid:after {
     position: absolute;
     content: "";
-    bottom: -20%;
+    bottom: -21%;
     left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
-    background-color: #ccc;
+    background-color: #0084a9;
     height: 4px;
     width: 85px;
 }
 .expertise-grid-img{
     margin-bottom: 25px;
 }
-.expertise-grid-img i{
-    width: 200px;
-    height: 200px;
+.expertise-grid-img i {
+    width: 160px;
+    height: 160px;
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -297,6 +305,7 @@
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     color: #2E3044;
+    font-size: 16px;
 }
 .expertise-grid-title a{
     font-family: Poppins;
@@ -404,11 +413,11 @@
     flex-direction: column;
 }
 .nws-slider-itm-title{
-    
+    font-size: 17px;   
 }
 .nws-slider-itm-title a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
 }
 .nws-slider-itm-title a:hover{
@@ -428,14 +437,19 @@
     padding-top: 35px;
     text-align: center;
 }
-.more-news-btn{
+.more-news-btn {
     color: #0084A9;
     background-color: transparent;
+    padding: 10px 16px;
+    min-width: 190px;
 }
 /*__________________________________-testimnil-slide-item-_______________________________*/
 .testimonial-slider-sec {
     padding-top: 110px;
     padding-bottom: 180px;
+}
+.testimnil-slide-item .higlght-strong{
+    color: #616268;
 }
 .testimnil-slide-item .blockqoute-inr{
     max-width: 850px;
@@ -553,11 +567,21 @@
 .team-exprt-desc-title{
     margin-bottom: 0;
 }
+.team-exprt-desc-title a{
+    display: inline-block;
+    text-decoration: none;
+    color: #2E3044;
+    font-size: 19px;
+}
+.team-exprt-desc-title a:hover{
+    color: #0084A9;
+}
 .team-btn-cntlr{
     text-align: center;
 }
-.team-btn{
+.team-btn {
     background-color: #0084aa;
+    padding: 11px 16px;
 }
 .experts-sec-intro{
     padding-bottom: 15px;
@@ -577,6 +601,19 @@
     padding-top: 60px;
     padding-bottom: 60px;
     padding-right: 70px;
+    position: relative;
+}
+.over-cottyn-cntlr:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    background-image: url(../images/cta-module-bg-rectngle.png);
+    height: 307PX;
+    width: 225PX;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 .over-cottyn-inr{
     margin-bottom: 20px;
@@ -600,11 +637,12 @@
     display: flex;
 }
 .cottyn-btns a{}
-.over-cottyn-btn{
+.over-cottyn-btn {
     display: inline-block;
     margin-right: 15px;
     background-color: #0084aa;
     min-width: 138px;
+    padding: 11px 16px;
 }
 .over-cottyn-btn:hover{
     background-color: transparent;
