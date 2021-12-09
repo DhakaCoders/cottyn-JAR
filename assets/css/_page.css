@@ -390,6 +390,12 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
+.fl-fancy-module:hover .fl-fancy-img {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
 .fl-fancy-module {
     overflow: hidden;
     max-width: 100%;
@@ -442,6 +448,70 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
 }
 .has-inline-bg .gallery-item img {
     display: none;
+}
+.table-dsc {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 0;
+    background-color: transparent;
+    border-top: none;
+    border-top: 1px solid #edeef0;
+}
+.table-dsc table {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    max-width: 850px;
+}
+.table-dsc table tr th {
+    border: none;
+    color: #777F84;
+    font-weight: 700;
+    padding: 15px 0 14px;
+    font-size: 16px;
+    line-height: 18px;
+}
+.table-dsc table thead tr th, .table-dsc table tbody tr td {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.table-dsc table thead tr th:first-child, .table-dsc table tbody tr td:first-child {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 85px;
+    text-align: left;
+}
+.table-dsc table tbody tr td:first-child, .table-dsc table tbody tr td:last-child {
+    color: #777F84;
+}
+.table-dsc table span {
+    display: block;
+}
+.table-dsc table tr th span {
+    display: block;
+}
+.table-dsc table tbody {
+    border-top: 0;
+    margin: 0 3px;
+}
+.table-dsc table tbody tr {
+    border-left: 0;
+    border-right: 0;
+}
+.table-dsc table tbody tr td {
+    border-top: 1px solid #edeef0;
+}
+.table-dsc table tbody tr td span {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.table-dsc table tbody tr:first-child td span {
+    display: block;
+}
+.table-dsc table tbody tr td:first-child span {
+    font-weight: 700;
+    border-bottom: none;
 }
 .fl-h1.page-banner-title{
 	line-height: 1;
