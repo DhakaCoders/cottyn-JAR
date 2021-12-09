@@ -305,10 +305,20 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
 .dfp-cta-module-cntlr p{
 	margin-bottom: 25px!important;
 }
-.block .testimnil-slide-item .module-blockqoute-inr {
-    /*max-width: 850px;*/
+.block .module-tstimonl-slider-cnltr {
     padding-top: 80px;
     border-top: 1px solid#f3f3f3;
+    border-bottom: 1px solid#f3f3f3;
+    padding-bottom: 120px;
+}
+.block .module-team-experts-wrap{
+	border-top: none;
+	padding-top: 90px;
+	padding-bottom: 85px;
+	border-bottom: 1px solid #f3f3f3;
+}
+.block .experts-sec-intro {
+    padding-bottom: 20px;
 }
 .pg-bnr-rgt-img{
 	position: absolute;
