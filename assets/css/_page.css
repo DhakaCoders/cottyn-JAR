@@ -348,6 +348,13 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 11px;
+
+}
+.fl-dft-rgtimg-lftdes {
+    padding-bottom: 90px;
+    border-bottom: 1px solid#f3f3f3;
+    margin-bottom: 115px;
 }
 .fl-dft-lftimg-rgtdes-lft {
     width: 50%;
@@ -356,9 +363,6 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
 .fl-dft-lftimg-rgtdes-rgt {
     width: 50%;
     padding-left: 80px;
-}
-.fl-dft-lftimg-rgtdes{
-	margin-bottom: 11px;
 }
 .pg-bnr-rgt-img{
 	position: absolute;
@@ -378,6 +382,66 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
 .fl-dft-rgtimg-lftdes .fl-dft-lftimg-rgtdes-rgt {
     padding-left: 0;
     padding-right: 80px;
+}
+.fl-fancy-img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.fl-fancy-module {
+    overflow: hidden;
+    max-width: 100%;
+    width: 100%;
+    height: 470px;
+    position: relative;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+.fl-video-play-cntlr {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    color: #fff;
+    width: 85px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fl-video-play-cntlr i svg {
+    width: 70px;
+    height: 70px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.gallery-item {
+    margin: 0;
+    padding: 0 12px;
+    margin-bottom: 24px;
+}
+.gallery-columns-3 .gallery-item {
+    width: 33.3333%;
+}
+.gallery-icon-img {
+    height: 225px;
+    display: none;
+}
+.has-inline-bg .gallery-icon-img {
+    height: 225px;
+    display: block;
+    border-radius: 20px;
+}
+.has-inline-bg .gallery-item img {
+    display: none;
 }
 .fl-h1.page-banner-title{
 	line-height: 1;
