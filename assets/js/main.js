@@ -9,8 +9,6 @@ $('.navbar-toggle').on('click', function(){
 
 
 
-
-
 	
 if($("ul.slick-dots li").length == 1){
    $("ul.slick-dots").hide();
@@ -281,7 +279,7 @@ if( $('#customSidebar').length ){
 }
   
   
-
+// header-works
  $(window).scroll(function() { 
     var scroll = $(window).scrollTop();   
     if (scroll >= 100) {

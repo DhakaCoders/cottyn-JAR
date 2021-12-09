@@ -76,7 +76,7 @@
 }
 .footer-col ul{}
 .footer-col ul li{
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 	line-height: 1.4;
 }
 .footer-col ul li a{
@@ -204,4 +204,20 @@ ul li.mail a i{}
 .ftr-design-by span a{}
 .ftr-design-by span:hover a,  .ftr-btm-mdle ul li a:hover{
 	color: #2E3044;
+}
+
+.ftr-has-top-border{
+	position: relative;
+}
+.ftr-has-top-border:before {
+    position: absolute;
+    content: "";
+    background-image: url('../images/ftr-top-border.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 0;
+    top: -80px;
+    height: 18px;
+    width: 1540px;
 }
