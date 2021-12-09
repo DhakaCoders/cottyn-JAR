@@ -237,7 +237,7 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
 
 /*page-banner*/
 .page-banner{
-	background: #fafafa;
+	/*background: #fafafa;*/
 	padding: 20px 0;
 	position: relative;
 }
@@ -254,8 +254,12 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
 .fl-h1.page-banner-title{
 	line-height: 1;
 }
-/*breadcrumb*/
-.breadcrumb-cntlr {
+
+/*__________________________________-start breadcrumb-__________________________________*/
+.page-banner-cntlr{
+	
+}
+/*.breadcrumb-cntlr {
     overflow: hidden;
     border-radius: 3px;
 }
@@ -325,9 +329,9 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     background-size: contain;
     background-image: url(../images/green-right-arrow.svg);
     background-repeat: no-repeat!important;
-}
+}*/
 
-/*sec entry hdr*/
+/*__________________________________-sec entry hdr-__________________________________*/
 .sec-entry-hdr-sub-title{
 	padding-left: 42px;
 	position: relative;

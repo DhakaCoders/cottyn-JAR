@@ -1,4 +1,4 @@
-/*_________________________-all for fixed & sticky header-____________________________*/
+/*_________________________-start all for fixed & sticky header-____________________________*/
 .fixed-hdr{
     top: 0!important;
     opacity: 1!important;
@@ -34,7 +34,7 @@
     justify-content: center;
 }
 
-/*__________________________ -normal header-_________________________*/
+/*__________________________ -start normal header-_________________________*/
 .header{
 	padding-top: 20px;
 }
