@@ -366,11 +366,14 @@
 .news-grid-slider-itm {
     background-color: #fff;
     border-radius: 10px;
-    padding-left: 20px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 25px;
     padding-top: 65px;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
     position: relative;
+    -webkit-box-shadow: 0 2px 12px 0 rgb(0 0 0 / 15%);
+    -moz-box-shadow: 0 2px 12px 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 0px 4px 0px rgb(100 100 100 / 11%);
 }
 .news-grid-slider-itm:hover:after{
     transform: translateX(5px);
@@ -390,11 +393,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-image: url('../images/right-arrow.png');
-    left: 26px;
-    bottom: 25px;
+    left: 37px;
+    bottom: 40px;
     transform: translateX(-5px);
     transform-origin: left;
-        transition: all 0.5s;
+    transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
 }
@@ -406,8 +409,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 76px;
-    width: 76px;
+    height: 70px;
+    width: 70px;
     text-align: center;
     border-radius: 100%;
     flex-direction: column;
@@ -425,8 +428,9 @@
 }
 .abslt-date strong{
     color: #fff;
-    font-size: 30px;
+    font-size: 28px;
     display: inline-block;
+    margin-top: 7px;
 }
 .abslt-date span{
     font-size: 16px;
