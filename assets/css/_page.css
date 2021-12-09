@@ -332,6 +332,17 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
 .dfp-text-module .module-sec-intro{
 	text-align: initial;
 }
+.dfp-grid-module .module-expertise-grids-cntlr ul li.active .expertise-grid:after{
+	bottom: -30%;
+}
+.dfp-grid-module ul{
+	padding-left: 0!important;
+}
+.dfp-grid-module-cnltr {
+    padding-top: 90px;
+    border-top: 1px solid #f3f3f3;
+    padding-bottom: 105px;
+}
 .pg-bnr-rgt-img{
 	position: absolute;
 	right: 0;
