@@ -351,21 +351,15 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
 }
 .fl-dft-lftimg-rgtdes-lft {
     width: 50%;
+    padding-right: 12px;
 }
 .fl-dft-lftimg-rgtdes-rgt {
     width: 50%;
-    padding-left: 50px;
-}
-.order-1{
-	order: 1!important;
-}
-.order-2{
-	order: 2!important;
+    padding-left: 80px;
 }
 .fl-dft-lftimg-rgtdes{
 	margin-bottom: 11px;
 }
-
 .pg-bnr-rgt-img{
 	position: absolute;
 	right: 0;
@@ -375,6 +369,15 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
 	-ms-transform: translateY(22px);
 	-webkit-transform: translateY(22px);
 	-o-transform: translateY(22px);
+}
+.fl-dft-rgtimg-lftdes .fl-dft-lftimg-rgtdes-lft {
+    order: 1;
+    padding-right: 0;
+    padding-left: 12px;
+}
+.fl-dft-rgtimg-lftdes .fl-dft-lftimg-rgtdes-rgt {
+    padding-left: 0;
+    padding-right: 80px;
 }
 .fl-h1.page-banner-title{
 	line-height: 1;
