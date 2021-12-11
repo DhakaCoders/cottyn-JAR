@@ -217,7 +217,8 @@ img{
 	right: 0;
 	bottom: 0;
 }
-.fl-transparent-btn ,.fl-btn {
+.fl-transparent-btn ,
+.fl-btn {
     display: inline-block;
     vertical-align: baseline;
     min-width: 200px;
@@ -335,17 +336,17 @@ img{
 .dft-fl-btn{
     display: inline-block;
     vertical-align: baseline;
-    min-width: 210px;
-    color: #F4A301;
+    min-width: 190px;
+    color: #fff;
     background: transparent;
     font-size: 14px;
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: Poppins;
     line-height: 1.1;
     text-align: center;
     padding: 15px 16px 16px;
     letter-spacing: 0.04em;
     font-weight: 700;
-    border: 2px solid #F4A301;
+    border: 2px solid #002544;
     text-transform: uppercase;
     border-radius: 8px;
     text-decoration: none;

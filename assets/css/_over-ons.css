@@ -1,0 +1,14 @@
+.ovrons-lftimg-rgtdesc p{
+	margin-bottom: 30px;
+}
+.ovrons-lftdesc-rgtimg .fl-dft-lftimg-rgtdes-rgt{
+	padding-left: 0;
+	padding-right: 100px;
+}
+.ovrons-lftdesc-rgtimg .fl-dft-lftimg-rgtdes-lft{
+	padding-right: 0;
+	padding-left: 12px;
+}
+.ovrons-lftimg-rgtdesc , .ovrons-lftdesc-rgtimg{
+	margin-bottom: 30px;
+}
