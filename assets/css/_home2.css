@@ -89,7 +89,7 @@
 .module-title a:hover strong{
     color: #fff;
 }
-.bnr-desc-title a strong{
+.title-blue{
     color: #0084A9;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
