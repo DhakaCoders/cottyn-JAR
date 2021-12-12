@@ -418,29 +418,35 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
 
 
 
-/*xs-page-entry-menu*/
-.nieuws-grids-select2-wrap {
+/*select2-inr*/
+.select2-wrappr{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 60px;
 }
-.xs-page-entry-menu {
-    margin-bottom: 40px;
+.select-lft-half, .select-rgt-half{
     max-width: 50%;
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    /*padding-left: 15px;*/
+    /*padding-right: 15px;*/
 }
-.xs-page-entry-menu ul{
+.select-lft-half{
+	padding-right: 15px;
+}
+ .select-rgt-half{
+ 	padding-left: 15px;
+ }
+.select2-inr ul{
 
 }
-.xs-page-entry-menu > ul > li {
+.select2-inr > ul > li {
     background: #fff;
     position: relative;
     line-height: 1;
     border: 1px solid#d7e4e9;
 }
-.xs-page-entry-menu > ul > li a {
+.select2-inr > ul > li a {
     text-decoration: none;
     display: inline-block;
     width: 100%;
@@ -451,32 +457,32 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-medium{
     padding: 20px 20px 20px;
     text-transform: capitalize;
 }
-.xs-page-entry-menu > ul > li > a{
+.select2-inr > ul > li > a{
 	position: relative;
 	color: #A1A1A3;
 }
-.xs-page-entry-menu > ul > li > a:after {
+.select2-inr > ul > li > a:after {
     position: absolute;
     content: "";
-    top: 19px;
+    top: 24px;
     right: 20px;
-    background-image: url('../images/down-arrow.svg');
+    background-image: url('../images/down-arow.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
-    width: 18px;
-    height: 18px;
+    width: 12px;
+    height: 7px;
     transition: all 0.5s;
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
-.xs-page-entry-menu > ul > li.active > a:after{
+.select2-inr > ul > li.active > a:after{
 	transform: rotate(180deg);
 	-ms-transform: rotate(180deg);
 	-webkit-transform: rotate(180deg);
 	-o-transform: rotate(180deg);
 }
-.xs-page-entry-menu > ul > li > ul.page-entry-sub-menu {
+.select2-inr > ul > li > ul.page-entry-sub-menu {
     position: absolute;
     background: #0084aa;
     box-shadow: 0px 2px 8px rgb(0 0 0);

@@ -83,11 +83,11 @@ $('.fancybox').fancybox({
 
 }
 
-if( $('.xs-page-entry-menu').length ){
-  $('.xs-page-entry-menu ul li a').on('click', function(e){
+if( $('.select2-inr').length ){
+  $('.select2-inr ul li a').on('click', function(e){
     e.preventDefault();
     $(this).parent().toggleClass('active');
-    $(this).parents('.xs-page-entry-menu').find('.xs-page-entry-menu ul li').removeClass('active');
+    $(this).parents('.select2-inr').find('.select2-inr ul li').removeClass('active');
     $(this).next().slideToggle(300);
   });
 }

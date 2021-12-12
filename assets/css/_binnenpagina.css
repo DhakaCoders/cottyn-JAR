@@ -9,7 +9,6 @@
     border-bottom-right-radius: 280px;
     position: absolute;
     left: 0;
-    /* z-index: 1; */
     width: 48%;
     min-height: 120px;
     top: -30px;
@@ -53,7 +52,6 @@
 .page-bnr-cntnts-inr {
     height: 60px;
 }
-.breadcrumb-cntlr {}
 .breadcrumb-cntlr ul {
     display: flex;
     flex-wrap: wrap;
@@ -81,7 +79,7 @@
     /*color: #E63312;*/
 }
 .breadcrumb-cntlr ul li:not(:first-child):after {
-    content: '';
+    content: "";
     position: absolute;
     top: 50%;
     left: 0;
@@ -212,7 +210,7 @@
 	text-align: initial;
 }
 .dfp-grid-module .module-expertise-grids-cntlr ul li.active .expertise-grid:after{
-	bottom: -30%;
+	bottom: -33%;
 }
 .dfp-grid-module ul{
 	padding-left: 0!important;
@@ -337,6 +335,9 @@
     background-color: transparent;
     border-top: none;
     border-top: 1px solid #edeef0;
+}
+.dfp-tbl-wrap {
+    padding-bottom: 80px;
 }
 .table-dsc table {
     width: 100%;

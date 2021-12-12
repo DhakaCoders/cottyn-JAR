@@ -1,5 +1,5 @@
 .footer-sec {
-    /*padding-top: 88px;*/
+    padding-top: 80px;
     position: relative;
 }
 .footer-top{
@@ -109,23 +109,23 @@
     display: inline-block;
     font-size: 16px;
 }
-.ftr-contact-soicals{
+.module-socials{
 	margin-top: 25px;
 }
-.ftr-contact-soicals ul{
+.module-socials ul{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 }
-.ftr-contact-soicals ul li{
+.module-socials ul li{
 	margin-right: 15px;
 	margin-bottom: 5px;
 }
-.ftr-contact-soicals ul li a{
+.module-socials ul li a{
 	display: inline-block;
 	position: relative;
 }
-.ftr-contact-soicals ul li a i{
+.module-socials ul li a i{
 	background-color: #0084aa;
 	color: #fff;
 	height: 30px;
@@ -137,7 +137,7 @@
 	align-items: center;
 	font-size: 20px;
 }
-.ftr-contact-soicals >ul >li >a:hover i{
+.module-socials >ul >li >a:hover i{
 	background-color: #04627e;
 }
 

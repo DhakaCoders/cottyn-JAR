@@ -1,0 +1,39 @@
+.nieus-dtls-team-exprt-wrap{
+	border-bottom: none!important;
+    margin-bottom: 0!important;
+    padding-bottom: 50px!important;
+}
+.nieuws-details-grids-cnltr{}
+.nieuws-details-grids-hdng{
+	margin-bottom: 70px;
+	text-align: center;
+}
+.nieuws-detail-tbl-wrap {
+    border-bottom: 1px solid#f2f2f2;
+    margin-bottom: 70px;
+}
+.share-to{
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 70px;
+}
+.share-to-label{
+	display: inline-block;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px!important;
+	letter-spacing: -0.02em;
+	color: #616268;
+}
+.share-to-socials{
+	display: flex;
+	align-items: center;
+	margin-top: 0;
+}
+.share-to-socials ul{
+	padding-left: 20px!important;
+}
+.share-to-socials ul li{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
