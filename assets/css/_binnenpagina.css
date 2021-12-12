@@ -1,3 +1,101 @@
+.page-banner-sec{
+    margin-bottom: 100px;
+}
+.page-bnr-cntlr{
+    position: relative;
+}
+.page-bnr-hdng-bg {
+    background-color: #f3f8fb;
+    border-bottom-right-radius: 280px;
+    /* max-width: 400px; */
+    position: absolute;
+    left: 0;
+    /* z-index: 1; */
+    width: 50%;
+    height: 170px;
+    top: -30px;
+}
+.page-bnr-cntnts {
+    display: flex;
+}
+.page-bnr-cntnts-cntlr {
+    background-color: #0084a9;
+}
+.page-bnr-title{}
+.pg-bnr-breadcrumb {
+    padding-left: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.pg-bnr-title {
+    width: 50%;
+    padding-right: 100px;
+}
+.page-bnr-cntnts-inr {
+    height: 60px;
+}
+.breadcrumb-cntlr {}
+.breadcrumb-cntlr ul {
+    display: flex;
+    align-items: center;
+    margin: 0 -23px;
+}
+.breadcrumb-cntlr ul li {
+    padding: 0 23px;
+    position: relative;
+    line-height: 1;
+}
+.breadcrumb-cntlr ul li a, .breadcrumb-cntlr ul li span, .breadcrumb-cntlr ul li a span {
+    display: inline-block;
+    vertical-align: baseline;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+    font-size: 14px;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    text-transform: uppercase;
+}
+.breadcrumb-cntlr ul li.active span, .breadcrumb-cntlr ul li.active a {
+    /*color: #E63312;*/
+}
+.breadcrumb-cntlr ul li:not(:first-child):after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    background-image: url('../images/right-arrow-red.svg');
+    background-repeat: no-repeat!important;
+    background-size: contain!important;
+    width: 12px;
+    height: 7px;
+    margin-top: 1px;
+}
+.breadcrumb-cntlr ul li a span:hover {
+    color: #2e3144;
+}
+.breadcrumb-cntlr ul li.active{}
+.breadcrumb-cntlr ul li a{}
+.breadcrumb-cntlr ul li a span{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .page-banner{
 	/*background: #fafafa;*/
 	padding: 20px 0;
