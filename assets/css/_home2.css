@@ -10,42 +10,37 @@
     position: relative;
 }
 .banner-lft-img {
-    height: 672px;
-    width: 47%;
+    height: 650px;
+    width: 49%;
     position: absolute;
     left: 0;
     top: -50px;
     border-bottom-right-radius: 35%;
 }
+
 .banner-lft-img:before {
     position: absolute;
     content: "";
-    right: -90px;
+    right: -69px;
     top: 17%;
     border-radius: 0px 90px 0px 0px;
-    /*transform: matrix(1, 0, 0, -1, 0, 0);*/
-    height: 145px;
-    width: 90px;
+    /* transform: matrix(1, 0, 0, -1, 0, 0); */
+    height: 100px;
+    width: 69px;
     background: #FFFFFF0F;
 }
 .banner-lft-img:after {
     position: absolute;
     content: "";
     left: 0;
-    bottom: -22.6%;
+    bottom: -16.6%;
     border-bottom-right-radius: 80px;
-    height: 152px;
-    width: 144px;
+    height: 108px;
+    width: 110px;
     background: #f3f8fb;
 }
-
 .banner-full-width-bg-sec{
     width: 100%;
-}
-.banner-ful-wid-bg-cntnt-cntlr{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .banner-desc-cntlr {
     padding: 90px 0 90px 80px;
