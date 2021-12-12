@@ -198,20 +198,29 @@
 	position: relative;
 }
 .ftr-has-top-border:before {
-    position: absolute;
+    /*position: absolute;*/
     content: "";
     background-image: url('../images/ftr-top-border.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     left: 13.5%;
-    transform: translateX(-13.5%);
     top: -98px;
-    top: 0;
     height: 18px;
     max-width: 1540px;
     width: 100%;
 }
+/*.ftr-has-top-border:before {
+    position: absolute;
+    content: "";
+    background-color: #ccc;
+    border-bottom-right-radius: 15px;
+    right: 18%;
+    transform: translateX(-18%);
+    top: -98px;
+    height: 18px;
+    width: 1600px;
+}*/
 
 /*.ftr-has-top-border-copy{
 	position: relative;

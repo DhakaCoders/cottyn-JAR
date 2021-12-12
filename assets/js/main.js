@@ -83,6 +83,16 @@ $('.fancybox').fancybox({
 
 }
 
+if( $('.xs-page-entry-menu').length ){
+  $('.xs-page-entry-menu ul li a').on('click', function(e){
+    e.preventDefault();
+    $(this).parent().toggleClass('active');
+    $(this).parents('.xs-page-entry-menu').find('.xs-page-entry-menu ul li').removeClass('active');
+    $(this).next().slideToggle(300);
+  });
+}
+
+
 
 /**
 Responsive on 767px
