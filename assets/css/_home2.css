@@ -5,6 +5,7 @@
 }
 .banner-cntlr{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -45,6 +46,7 @@
 .banner-desc-cntlr {
     padding: 90px 0 90px 80px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -129,6 +131,7 @@
 }
 .customer-lgalty-cntlr{
     display: flex;
+    flex-wrap: wrap;
 }
 .customer-lgalty-lft {
     width: 49.3%;
@@ -284,6 +287,7 @@
     height: 160px;
     border-radius: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background-color: #f3f8fb;
@@ -402,6 +406,7 @@
     left: 30px;
     background-color: #0084aa;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     height: 70px;
@@ -634,6 +639,7 @@
 }
 .cottyn-btns {
     display: flex;
+    flex-wrap: wrap;
 }
 .cottyn-btns a{}
 .over-cottyn-btn {
