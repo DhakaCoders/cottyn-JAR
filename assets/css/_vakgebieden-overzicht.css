@@ -14,3 +14,98 @@
     margin: 0 auto;
     text-align: center;
 }
+.Vakgebieden-srch-cntlr {
+    margin-bottom: 80px;
+}
+
+/*_________________________-fl_search_start-_____________________________-*/
+/*_________________________-fl_search_start-_____________________________-*/
+/*_________________________-fl_search_start-_____________________________-*/
+.archive .fl-secrh form button:hover svg{
+    fill: #FFA800!important;
+}
+.sec-hdr-cntrl .fl-secrh form input{
+    padding: 13px 44px 11px 16px;
+    border-radius: 3px;
+}
+.sec-hdr-cntrl .fl-secrh form input::placeholder {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+    color: #9B9B9B;
+}
+.sec-hdr-cntrl .fl-secrh form input:-ms-input-placeholder {
+    font-size: 16px;
+    color: #9B9B9B;
+    opacity: 1;
+}
+
+.sec-hdr-cntrl .fl-secrh form input::-ms-input-placeholder {
+    font-size: 16px;
+    color: #9B9B9B;
+    opacity: 1;
+}
+.archive .fl-secrh form button{
+    margin-top: -1px;
+}
+.fl-search-cntlr{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #E7EAEC;
+}
+
+.fl-secrh {
+    max-width: 850px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.fl-secrh form {
+    max-width: 850px;
+    width: 100%;
+}
+.fl-secrh form input {
+    width: 100%;
+    line-height: 1;
+    background: #FFFFFF;
+    border: 1px solid #d7e4ea!important;
+    padding: 15.5px 36px 15.5px 22px;
+}
+.fl-secrh form button {
+    position: absolute;
+    background: transparent;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    right: 15px;
+    padding: 0;
+    cursor: pointer;
+    z-index: 5;
+    margin-top: -2px;
+}
+.fl-secrh form button:hover i svg {
+    fill: #FFA800;
+}
+.fl-secrh form input::placeholder {
+    font-size: 14px;
+    color: #C5C6C7;
+    opacity: 1;
+}
+
+.fl-secrh form input:-ms-input-placeholder {
+    font-size: 14px;
+    color: #C5C6C7;
+    opacity: 1;
+}
+
+.fl-secrh form input::-ms-input-placeholder {
+    font-size: 14px;
+    color: #C5C6C7;
+    opacity: 1;
+}
+.fl-secrh form input:focus{
+    border-color: #000;
+}
