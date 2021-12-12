@@ -37,7 +37,7 @@
 /*__________________________ -start normal header-_________________________*/
 .header{
 	padding-top: 20px;
-    margin-bottom: 40;
+    margin-bottom: 40px;
 }
 .hdr-cntlr{
 	display: flex;
@@ -155,23 +155,23 @@
     position: absolute;
     content: "";
     background-color: #0084A9;
-    bottom: -10px;
-    height: 11px;
-    width: 2px;
+    bottom: -15px;
     left: 50%;
     opacity: 0;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
-    transform: translateY(10px);
+    width: 2.5px;
+    height: 0;
     transform-origin: bottom;
 }
 .main-nav ul li.active a:after{
-    transform: translate(0);
+    width: 2.5px;
+    height: 12px;
 }
 .main-nav ul li a:hover:after {
     opacity: 1;
-    transform: translateY(-0px);
+    height: 12px;
 }
 .main-nav ul li.active a:hover:after{
     transform: none;

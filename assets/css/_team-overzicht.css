@@ -57,7 +57,7 @@
 
 
 .team-partners-grids-sec{
-	margin-bottom: 80px;
+	margin-bottom: 50px;
 }
 .team-partners-grids-cntlr{
 	margin-bottom: 30px;
@@ -114,6 +114,7 @@
 	position: relative;
 	margin-bottom: 0;
 	font-size: 22px;
+	padding-right: 25px;
 }
 .tpg-title a{
 	font-size: 23px;
