@@ -239,13 +239,13 @@ img{
 
 
 .fl-btn:hover,
-.fl-transparent-btn{
+.fl-transparent-btn:hover{
 	background: #0084A9;
 	color: #fff;
 }
 .fl-transparent-btn:hover{
-	color: #0084aa;
-	background: transparent;
+	color: #fff!important;
+	background: #0084a9!important;
 }
 .btn-bg-green{
 	background: #;
