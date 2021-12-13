@@ -200,7 +200,7 @@
 .ftr-has-top-border:before {
     position: absolute;
     content: "";
-    background-color: #cccccc;
+    background-color: #F3F8FA;
     left: 0;
     top: -18px;
     height: 18px;
@@ -209,7 +209,7 @@
 .footer-cntlr:after {
     position: absolute;
     content: "";
-    background-color: #ccc;
+    background-color: #F3F8FA;
     border-bottom-right-radius: 15px;
     top: -98px;
     height: 18px;

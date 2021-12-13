@@ -113,14 +113,14 @@ Responsive on 767px
 // https://stackoverflow.com/questions/38686650/slick-slides-on-pagination-hover
 
 
-/**Slick slider*/
+/**______________________________testimonialSlider_______________________________________ */
 
 if( $('.testimonialSlider').length ){
     $('.testimonialSlider').slick({
       // dots: true,
       infinite: false,
       autoplay: true,
-      autoplaySpeed: 120000,
+      autoplaySpeed: 1200,
       speed: 700,
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -153,6 +153,47 @@ if( $('.testimonialSlider').length ){
     });
 }
 
+
+
+/**_______________________________relatedarticleSlider_______________________________*/
+
+if( $('.relatedarticleSlider').length ){
+    $('.relatedarticleSlider').slick({
+      // dots: true,
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      speed: 700,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      arrows:true,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+}
 
 
 
@@ -370,7 +411,7 @@ function leftWidth(){
         arrows:false,
         infinite: true,
         autoplay: false,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 1200,
         speed: 700,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -423,7 +464,7 @@ $('.select-2-cntlr').select2();
         arrows:false,
         infinite: true,
         autoplay: false,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 1200,
         speed: 700,
         slidesToShow: 3,
         slidesToScroll: 1,
