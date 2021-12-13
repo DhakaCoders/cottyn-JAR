@@ -177,7 +177,7 @@
 .ftr-btm-mdle ul li:after {
     position: absolute;
     right: 0;
-    top: 7px;
+    top: 6px;
     content: "";
     height: 17px;
     width: 2px;
