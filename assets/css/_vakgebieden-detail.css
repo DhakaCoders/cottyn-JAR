@@ -1,3 +1,42 @@
+.vakgebdn-dtails-accordion-cntlr{
+    display: flex;
+}
+.vakgbdn-sticky-sidebar {
+    width: 28%;
+    background-color: #f3f8fa;
+    padding: 50px 25px 50px 45px;
+}
+.module-accordion {
+    width: 70%;
+    padding-left: 80px;
+}
+.stikcy-sidebar-inr{}
+.sticky-sidebar{}
+.sticky-sidebar ul{}
+.sticky-sidebar ul li{
+    margin-bottom: 15px;
+    /*position: relative;*/
+}
+.sticky-sidebar ul li a{
+    color: #2E3044;
+    position: relative;
+}
+.sticky-sidebar ul li.active a:before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 12px;
+    background-image: url('../images/list-icon-blue.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: -20px;
+    top: 9px;
+}
+.sticky-sidebar ul li.active a{
+    font-weight: 600;
+}
+
 .accordion-inline-bg-img img{
     display: none;
     border-radius: 20px;

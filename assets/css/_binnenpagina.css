@@ -106,6 +106,78 @@
 
 
 
+.default-page-con ul,
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    padding-left: 16px;
+}
+.default-page-con ul li,
+ul li {
+    padding: 2px 0 6px 22px;
+    position: relative;
+    line-height: 22px;
+}
+
+.default-page-con ul li::before,
+ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url('../images/list-icon.svg');
+    background-repeat: no-repeat!important;
+    width: 10px;
+    height: 10px;
+    margin-top: 11px;
+}
+ul li.refGridItem:before{
+    display: none;
+}
+.default-page-con ol, ol {
+    padding: 0 0 0 0;
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    -ms-counter-reset: my-awesome-counter;
+    -webkit-counter-reset: my-awesome-counter;
+    padding-left: 18px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+.default-page-con ol li ,ol li {
+    counter-increment: my-awesome-counter;
+    -ms-counter-increment: my-awesome-counter;
+    -webkit-counter-increment: my-awesome-counter;
+    padding: 2px 0 6px 20px;
+    line-height: 24px;
+    position: relative;
+}
+.default-page-con ol li::before,
+ol li::before {
+    content: counter(my-awesome-counter) ".";
+    color: #616268;
+    font-weight: 600;
+    text-align: center;
+    line-height: 16px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 6px;
+}
+.default-page-con p {
+    margin-bottom: 25px;
+}
+
+
+.dfp-text-module p a,
+.default-page-con ul li a,
+.default-page-con ol li a{
+    text-decoration: underline;
+}
+
 
 
 
