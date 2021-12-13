@@ -12,3 +12,47 @@
 .ovrons-lftimg-rgtdesc , .ovrons-lftdesc-rgtimg{
 	margin-bottom: 30px;
 }
+
+/*______________________- tab-______________________*/
+.tab-cntlr {
+	width: 100%;
+	height: 70vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	}
+
+	.tabs {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	max-width: 500px;
+	}
+
+	.tab {
+	font-size: 16px;
+	padding: 15px 60px;
+	cursor: pointer;
+	}
+
+	.tab.active {
+	background-color: rgb(250, 97, 9);
+	}
+
+	.content {
+	width: 100%;
+	max-width: 500px;
+	margin-top: 25px;
+	}
+
+	.content-item {
+	display: none;
+	padding: 50px;
+	border: 1px solid #ccc;
+	}
+
+	.content-item.active {
+	display: flex;
+	justify-content: center;
+	}

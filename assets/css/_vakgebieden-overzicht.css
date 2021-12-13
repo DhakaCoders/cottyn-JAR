@@ -21,6 +21,57 @@
 /*_________________________-fl_search_start-_____________________________-*/
 /*_________________________-fl_search_start-_____________________________-*/
 /*_________________________-fl_search_start-_____________________________-*/
+
+.fl-secrh {
+    max-width: 850px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.fl-secrh form {}
+.fl-secrh form input {
+    width: 100%;
+    line-height: 1;
+    background: #FFFFFF;
+    border: 1px solid #d7e4ea!important;
+    padding: 15.5px 36px 15.5px 22px;
+}
+.fl-secrh form button {
+    position: absolute;
+    background: transparent;
+    bottom: 2px;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    right: 15px;
+    padding: 0;
+    cursor: pointer;
+    z-index: 5;
+}
+.fl-secrh form button:hover i svg {
+    fill: #FFA800;
+}
+.fl-secrh form input::placeholder {
+    font-size: 14px;
+    color: #C5C6C7;
+    opacity: 1;
+}
+
+.fl-secrh form input:-ms-input-placeholder {
+    font-size: 14px;
+    color: #C5C6C7;
+    opacity: 1;
+}
+
+.fl-secrh form input::-ms-input-placeholder {
+    font-size: 14px;
+    color: #C5C6C7;
+    opacity: 1;
+}
+.fl-secrh form input:focus{
+    border-color: #000;
+}
 .archive .fl-secrh form button:hover svg{
     fill: #FFA800!important;
 }
@@ -53,59 +104,4 @@
     padding-bottom: 30px;
     margin-bottom: 30px;
     border-bottom: 2px solid #E7EAEC;
-}
-
-.fl-secrh {
-    max-width: 850px;
-    width: 100%;
-    position: relative;
-    margin: 0 auto;
-}
-.fl-secrh form {
-    max-width: 850px;
-    width: 100%;
-}
-.fl-secrh form input {
-    width: 100%;
-    line-height: 1;
-    background: #FFFFFF;
-    border: 1px solid #d7e4ea!important;
-    padding: 15.5px 36px 15.5px 22px;
-}
-.fl-secrh form button {
-    position: absolute;
-    background: transparent;
-    top: 50%;
-    transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    right: 15px;
-    padding: 0;
-    cursor: pointer;
-    z-index: 5;
-    margin-top: -2px;
-}
-.fl-secrh form button:hover i svg {
-    fill: #FFA800;
-}
-.fl-secrh form input::placeholder {
-    font-size: 14px;
-    color: #C5C6C7;
-    opacity: 1;
-}
-
-.fl-secrh form input:-ms-input-placeholder {
-    font-size: 14px;
-    color: #C5C6C7;
-    opacity: 1;
-}
-
-.fl-secrh form input::-ms-input-placeholder {
-    font-size: 14px;
-    color: #C5C6C7;
-    opacity: 1;
-}
-.fl-secrh form input:focus{
-    border-color: #000;
 }
