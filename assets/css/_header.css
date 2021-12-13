@@ -206,11 +206,11 @@
     left: 0;
     right: 0;
     z-index: 20;
-    padding-top: 5px;
+    padding-top: 8px;
     border-radius: 20px;
     border: 2px solid #ececec;
-    padding-bottom: 5px;
-        transition: all 0.5s;
+    padding-bottom: 7px;
+    transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
 }
