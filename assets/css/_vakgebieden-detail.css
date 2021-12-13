@@ -1,0 +1,107 @@
+.accordian{
+	max-width: 600px;
+	margin: 100px auto;
+}
+.accordian_card {
+    margin-bottom: 25px;
+}
+.accordian_header h3 {
+    padding: 50px 30px 50px 20px;
+    margin: 0;
+    background: #f3f8fa;
+    color: #2E3044;
+    cursor: pointer;
+    position: relative;
+}
+.accordian_header h3 .icon_plus {
+    position: absolute;
+    display: inline-block;
+    vertical-align: baseline;
+    width: 48px;
+    height: 48px;
+    border: 4px solid#017899;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    right: 20px;
+}
+.accordian_card .accordian_header h3 .icon_plus:after {
+    position: absolute;
+    content: '';
+    height: 4.7px;
+    width: 22px;
+    background: #0084aa;
+    right: 9px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 1px;
+}
+.accordian_card .accordian_header h3 .icon_plus:before {
+    position: absolute;
+    content: '';
+    height: 3.7px;
+    width: 22px;
+    background: #0084aa;
+    right: 9px;
+    transform: rotate(91deg);
+    top: 50%;
+    margin-top: -1px;
+}
+
+ .accordian_header h3 .icon_remove:before {
+    position: absolute;
+    content: '';
+    height: 3.7px;
+    width: 22px;
+    background: #3343a2;
+    right: 5px;
+    transform: rotate(91deg);
+    top: 0;
+    margin-top: 8px;
+}
+/*.accordian_card:nth-child(2) .accordian_header h3 .icon_plus:after,
+.accordian_card:nth-child(3) .accordian_header h3 .icon_plus:after{
+	position: absolute;
+    content: '';
+    height: 3px;
+    width: 10px;
+    background: #3343a2;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}*/
+/*.accordian_card:nth-child(2) .accordian_header h3 .icon_plus:before,
+.accordian_card:nth-child(3) .accordian_header h3 .icon_plus:before{
+	position: absolute;
+    content: '';
+    height: 3px;
+    width: 10px;
+    background: #3343a2;
+    right: 5px;
+    transform: rotate(91deg);
+    top: 0;
+    margin-top: 8px;
+}*/
+.accordian_card .accordian_header h3 .icon_remove:before,
+.accordian_card:nth-child(2) .accordian_header h3 .icon_remove:before,
+.accordian_card:nth-child(3) .accordian_header h3 .icon_remove:before{
+	display: none!important;
+}
+
+.accordian_body {
+    padding: 20px;
+    background-color: #F3F8FA;
+}
+.accordian .accordian_card .accordian_body{
+	display: none;
+}
+
+.accordian_body p {
+    font-size: 18px;
+    line-height: 1.2;
+}
+.momin{
+	background: red;
+	height: 50px;
+	width: 40px;
+}

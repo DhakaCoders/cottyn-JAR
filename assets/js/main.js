@@ -196,6 +196,16 @@ if( $('.relatedarticleSlider').length ){
 }
 
 
+$(document).ready(function(){
+  $('.accordian_header').click(function(){
+    $(this).parent().siblings().find('.accordian_body').slideUp();
+    $(this).parent().siblings().find('.icon_remove').removeClass('icon_remove');
+    $(this).next('.accordian_body').slideToggle('slow');
+    $(this).find('span').toggleClass('icon_remove');
+  });
+});
+
+
 
 /* BS form Validator*/
 (function() {
