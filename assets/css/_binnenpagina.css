@@ -162,13 +162,13 @@
 .block ul{
 	padding-left: 40px;
 }
-/*.block ul li::before {
+.block ul li::before {
     left: -21px;
     background: url('../images/list-icon.svg');
     width: 12px!important;
     height: 2px!important;
     top: 17px!important;
-}*/
+}
 .block-850{
 	max-width: 850px;
 	margin: 0 auto;
