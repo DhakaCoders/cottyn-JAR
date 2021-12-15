@@ -58,7 +58,7 @@
     margin-bottom: 30px;
     color: #fff!important;
 }
-.module-title {
+.bnr-module-title {
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
@@ -67,7 +67,7 @@
     line-height: 1.1;
     display: inline-block;
 }
-.module-title a strong{
+.bnr-module-title a strong{
     color: #0084A9;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -75,7 +75,7 @@
     font-size: 58px;
 }
 
-.module-title a{
+.bnr-module-title a{
     display: inline-block;
     font-family: Poppins;
     font-style: normal;
@@ -85,10 +85,10 @@
     color: #FFFFFF;
     line-height: 1.1;
 }
-.module-title a:hover{
+.bnr-module-title a:hover{
     color: #0084a9;
 }
-.module-title a:hover strong{
+.bnr-module-title a:hover strong{
     color: #fff;
 }
 .title-blue{
@@ -129,31 +129,31 @@
 .customer-legality-sec{
     padding-bottom: 80px;
 }
-.customer-lgalty-cntlr{
+.page-intro-cntlr{
     display: flex;
     flex-wrap: wrap;
 }
-.customer-lgalty-lft {
+.page-intro-lft {
     width: 49.3%;
     padding-right: 80px;
 }
-.customer-lgalty-title a, .customer-lgalty-title{
+.page-intro-module-title a, .page-intro-module-title{
     color: #2E3044!important;
     line-height: 1.4;
 }
-.customer-lgalty-title strong{
+.page-intro-module-title strong{
     color: #0084a9!important;
 }
-.customer-lgalty-title a:hover{
+.page-intro-module-title a:hover{
     color: #0084a9!important;
 }
-.customer-lgalty-title:hover a strong{
+.page-intro-module-title:hover a strong{
     color: #2e3044!important;
  }
-.customer-lgalty-rgt{
+.page-intro-rgt{
     width: 50.7%;
 }
-.customer-lgalty-rgt p{
+.page-intro-rgt p{
     margin-bottom: 40px;
 }
 /*- _____________________________-cta-module-sec- ___________________________*/

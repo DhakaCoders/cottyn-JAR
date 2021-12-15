@@ -206,10 +206,10 @@
     left: 0;
     right: 0;
     z-index: 20;
-    padding-top: 8px;
+    padding-top: 5px;
     border-radius: 20px;
     border: 2px solid #ececec;
-    padding-bottom: 7px;
+    padding-bottom: 5px;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -217,7 +217,7 @@
 .fl-lang-cntlr ul svg {
     position: absolute;
     right: 20px;
-    top: 6px;
+    top: 8px;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;

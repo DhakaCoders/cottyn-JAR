@@ -135,7 +135,7 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	font-size: 20px;
+	font-size: 18px;
 }
 .module-socials >ul >li >a:hover i{
 	background-color: #04627e;
