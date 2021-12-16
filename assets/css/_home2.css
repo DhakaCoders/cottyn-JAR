@@ -4,10 +4,6 @@
     margin-bottom: 165px;
 }
 .banner-cntlr{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     position: relative;
 }
 .banner-lft-img {
@@ -438,7 +434,7 @@
     color: #fff;
     display: inline-block;
     line-height: 1;
-    margin-top: 2px;
+    margin-top: ;
 }
 .more-news-btn-cntlr{
     padding-top: 35px;
