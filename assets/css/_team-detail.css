@@ -161,23 +161,26 @@ strong.color-blue a{
 .studies-counter-cntlr ul li span{
 	display: block;
 }
-.tm-desc-innr{
+.module-desc-inr{
 	display: flex;
 	flex-wrap: wrap;
 }
- .tm-desc-rgt{
+ .module-desc-rgt{
 	width: 55%;
 	padding-left: 90px;
 }
-.tm-desc-lft{
+.module-desc-lft{
 	width: 45%;
 	padding-right: 40px;
 }
-.tm-desc-innr p{
+.module-desc-inr p{
 	margin-bottom: 40px;
 }
-.tm-desc-title {
+.module-desc-title {
     margin-bottom: 30px;
+}
+.module-desc{
+    
 }
 .module-nieuws-grids-inr .slick-list{
 	/*overflow: initial;*/

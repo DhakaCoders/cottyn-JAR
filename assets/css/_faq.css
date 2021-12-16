@@ -1,3 +1,41 @@
 .fullwidthimgleftWidth{
 	width: 40px;
 }
+.faq-acrdion-card {
+	margin-bottom: 0;
+}
+.faq-acrdion-card .accordion-title{
+	background-color: initial;
+}
+.faq-acrdion-card .accordian_body {
+    background-color: initial;
+    padding: 0 20px 0px 0px;
+}
+.faq-accordion-cntlr{
+	padding-left: initial;
+	width: initial;
+}
+.faq-accordion-cntlr .accordian_header h3 {
+    padding: 20px 70px 25px 0px;
+}
+.faq-accordion{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.faq-accordion .accordian_card{
+    width: 50%;
+}
+.select-2-sec{
+	padding-bottom: 120px;
+}
+
+.faq-Categorie-accordion-sec{
+	background-color: #F3F8FA;
+	padding-top: 120px;
+	padding-bottom: 160px;
+
+}
+.cta-module-wrapr{
+	padding: 100px 0;
+}
