@@ -37,3 +37,14 @@
 	padding-bottom: 0;
 	margin-bottom: 0;
 }
+.niuws-dtls-page-hedng-wrap ul{
+	display: flex;
+	align-items: center;
+}
+.niuws-dtls-page-hedng-wrap ul li{
+	padding-right: 50px;
+}
+.niuws-dtls-page-hedng-wrap .abslt-date{
+	top: 8px;
+    left: 50px;
+}
