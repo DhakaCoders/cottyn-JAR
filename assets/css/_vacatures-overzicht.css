@@ -4,7 +4,7 @@
 
 }
 .vactr-ovrzht-fea-grids-cntlr{
-
+    margin-bottom: 90px;
 
 }
 .vactr-ovrzht-fea-grids-cntlr ul{
@@ -70,27 +70,20 @@
     display: block;
 }
 .full-width-img-sec{
-    display: flex;
+    /*display: flex;*/
+    margin-bottom: 90px;
 
 }
-/*.full-width-img-lft{
-    position: relative;
-}
-.full-width-img-lft:after{
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    width: 100%;
-    background-image: url('../images/vacovrzht-fea-full-width-img.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 600px;
-}*/
 .full-width-img-lft{
     width: 80%;
     height: 600px;
 }
 .full-width-img-rgt{
     width: 20%;
+}
+.full-width-img-cntlr{
+    border-radius: 0px 0px 286.5px 0px;
+}
+.full-width-img-cntlr img{
+    display: none;
 }

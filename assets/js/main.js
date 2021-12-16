@@ -7,6 +7,27 @@ $('.navbar-toggle').on('click', function(){
 	$('#mobile-nav').slideToggle(300);
 });
 
+// __________________________________-fullwidthimgleftWidth-_________________________________
+// __________________________________-fullwidthimgleftWidth-_________________________________
+// __________________________________-fullwidthimgleftWidth-_________________________________
+// __________________________________-fullwidthimgleftWidth-_________________________________
+// __________________________________-fullwidthimgleftWidth-_________________________________
+function fullwidthimgleftWidth(){
+    var windowWidth =  $(window).width();
+    var containerwidth =  $('.container').width();
+    var leftconWidth = ((windowWidth-containerwidth)/2);
+        $(".full-width-img-cntlr").css({
+      "margin-left":-leftconWidth,
+    });
+  }
+  fullwidthimgleftWidth();
+  $(window).resize(function(){
+    fullwidthimgleftWidth();
+  });
+
+// fullwidthimgleftWidth();
+
+
 
 
 	
@@ -83,6 +104,9 @@ $('.fancybox').fancybox({
 
 }
 
+
+
+// _____________________________________select2________________________________________________
 if( $('.select2-inr').length ){
   $('.select2-inr ul li a').on('click', function(e){
     e.preventDefault();
@@ -226,6 +250,26 @@ $(document).ready(function(){
   }, false);
 })();
 
+// _____________________________________-fullwidthimgleftWidth-_____________________________________
+// _____________________________________-fullwidthimgleftWidth-_____________________________________
+// _____________________________________-fullwidthimgleftWidth-_____________________________________
+// _____________________________________-fullwidthimgleftWidth-_____________________________________
+// _____________________________________-fullwidthimgleftWidth-_____________________________________
+
+
+
+
+
+    // var containerwidth = $(".container").width();
+    // var leftmargin = ((windowWidth-containerwidth)/2);
+  // fullwidthimgleftWidth();
+  // $(window).resize(function(){
+  //   leftWidth();
+  // });
+
+  //   $(".lft-grey-bg").css({
+  //     "width":mradd,
+  //   });
 
 
 
@@ -242,6 +286,8 @@ if( $('.wpforms-error').length ){
     $(this).parents('.wpforms-field').removeClass('wpforms-has-error');
   });
 }
+
+
 // start jahir__________________________________
 if( $('.hdr-search-icon a').length ){
   $('.hdr-search-icon a').on('click', function(){
@@ -279,7 +325,10 @@ if (windowWidth <= 767){
     }
   }
 
-
+// ________________________________scrollto2________________________________________
+// ________________________________scrollto2________________________________________
+// ________________________________scrollto2________________________________________
+// ________________________________scrollto2________________________________________
 if( $('.scrollto2').length ){
   $('.scrollto2').on('click', function(e){
     e.preventDefault();
@@ -298,7 +347,11 @@ function goToByScroll(id, offset){
   }
 }
 
-/* custom sidebar */
+/* _____________________________custom sidebar_____________________________ */
+/* _____________________________custom sidebar_____________________________ */
+/* _____________________________custom sidebar_____________________________ */
+/* _____________________________custom sidebar_____________________________ */
+/* _____________________________custom sidebar_____________________________ */
 if( $('#customSidebar').length ){
     var windowWidth_1920 = $('.page-body-cntlr').outerWidth();
     var containerRightWidth = $('#customSidebarWrap').offset().left;
@@ -340,7 +393,11 @@ if( $('#customSidebar').length ){
 }
   
   
-// header-works
+// _____________________________header-works______________________________________
+// _____________________________header-works______________________________________
+// _____________________________header-works______________________________________
+// _____________________________header-works______________________________________
+// _____________________________header-works______________________________________
  $(window).scroll(function() { 
     var scroll = $(window).scrollTop();   
     if (scroll >= 100) {
@@ -384,6 +441,14 @@ function goToByScroll(id, offset){
   }
 }
 
+
+
+// ________________________________bannerheight____________________________________
+// ________________________________bannerheight____________________________________
+// ________________________________bannerheight____________________________________
+// ________________________________bannerheight____________________________________
+// ________________________________bannerheight____________________________________
+// ________________________________bannerheight____________________________________
   function bannerheight(){
       var windowWidth = $(window).width();
       var windowHeight = $(window).height();
@@ -588,6 +653,6 @@ if( $('#vacature_url').length > 0 ){
   $('body .wpforms-field.wpforms-field-hidden.vacatur_url input').val(vacURL);
 }
 
-new WOW().init();
+// new WOW().init();
 
 })(jQuery);
