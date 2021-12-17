@@ -13,6 +13,9 @@
     min-height: 120px;
     top: -30px;
 }
+.binnenpagina-bnr-hdng-bg{
+    min-height: 180px;
+}
 .page-bnr-cntnts {
     display: flex;
     flex-wrap: wrap;
