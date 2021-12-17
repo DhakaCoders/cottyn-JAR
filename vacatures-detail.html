@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Bedankt-pagina</title>
+  <title>Vacatures-detail</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme-color" content="#E63312">
@@ -19,7 +19,7 @@
   <link rel="stylesheet" type="text/css" href="assets/fancybox3/dist/jquery.fancybox.min.css">
   <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick-theme.css">
   <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick.css">
-  <link rel="stylesheet" type="text/css" href="assets/swiper/swiper-bundle.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/swiper/swiper-bundle.min.css"> -->
   <link rel="stylesheet" type="text/css" href="assets/select2/select2.min.css">
   <link rel="stylesheet" type="text/css" href="assets/flatpickr/flatpickr.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -293,24 +293,86 @@
   </header>
 
 
-  <section class="pagina-module-sec">
-    <div class="pagina-module-cntlr">
-      <div class="pagina-module-lft-bg inline-bg" style="background-image:url('assets/images/dankje-lft-img.jpg');"></div>
-      <div class="pagina-module-rgt">
-        <div class="container">
-          <div class="row pagina-module-rgt-wrap">
-            <div class="col-md-6"></div>
-            <div class="col-md-6">
-              <div class="pagina-module-rgt-cntlr">
-                <div class="pagina-module-rgt-inr">
-                  <h1 class="fl-h1 pagina-module-rgt-desc-title">Dank je!</h1>
-                  <p>Morbi sed adipiscing nisl, imperdiet. Egestas ut semper vestibulum suscipit. Vitae, tortor risus enim purus aliquet ut cursus sagittis. Tortor at nulla ut arcu nisl enim amet, sit etiam. </p>
-                  <ul>
-                    <li><a href="#">Over ons</a></li>
-                    <li><a href="#">Vakgebieden</a></li>
-                  </ul>
-                  <div class="dankje-btns">
-                    <a href="#" class="fl-btn fl-bnr-btn fl-bnr-btn-active">Home</a>
+  <section class="vacature-details-con">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="vacature-details-con-cntlr">
+
+            <div class="vacature-details-con-lft">
+              <article class="default-page-con" id="vacature-details">
+                <div class="block">
+                  <div class="dfp-promo-module">                
+                    <div class="dfp-promo-module-des-ctlr">
+                      <div class="dfp-promo-module-des">
+                        <h2 class="dfp-promo-module-title fl-h1">Vacature Titel</h2>
+                      </div>
+                      <div class="dfp-time-module">
+                        <span class="full-time">Part Time - Belgium</span>
+                      </div>
+                      <div class="dfp-social-media-select-module">
+                        <div class="dfp-social-media-module">
+                          <span>Delen op:</span>
+                          <div class="module-socials clearfix">
+                            <ul class="reset-list clearfix">
+                              <li class="social-fb"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                              <li class="social-in"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="vacature-details-rgt-con-btn-cntlr hide-md">
+                          <a href="#" class="vacature-detail-btn scrollto2 fl-btn" data-to="#dfp-form-module">
+                            <span>Solliciteren?</span>       
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="block">
+                  <div class="dfp-promo-module">
+                    <div class="dfp-plate-one-img-bx">
+                      <img src="assets/images/vacature-details-dfp-img-01.jpg">
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+
+            <div class="vacature-details-con-rgt d-none">
+              <div id="customSidebarWrap">
+                <div id="customSidebar">
+                  <div class="vacature-details-con-rgt-inner">
+                    <div class="vacature-details-rgt-con-cntlr">
+                      <div class="vacature-details-rgt-col">
+                        <h6>Titel.</h6>
+                        <ul>
+                          <li>Sagittis nisi, risus cursus sit.</li>
+                          <li>Orci, sem mi nam et vitae id. </li>
+                          <li>Purus id a pulvinar enim donec.</li>
+                          <li>Et a semper vel maecenast.</li>
+                        </ul>
+                      </div>
+                      <div class="vacature-details-rgt-col">
+                        <h6>Titel.</h6>
+                        <ul>
+                          <li>Sagittis nisi, risus cursus sit.</li>
+                          <li>Orci, sem mi nam et vitae id. </li>
+                          <li>Purus id a pulvinar enim donec.</li>
+                          <li>Et a semper vel maecenast.</li>
+                        </ul>
+                      </div>
+                      <div class="vacature-details-rgt-col">
+                        <h6>Titel.</h6>
+                        <ul>
+                          <li>Sagittis nisi, risus cursus sit.</li>
+                          <li>Orci, sem mi nam et vitae id. </li>
+                          <li>Purus id a pulvinar enim donec.</li>
+                          <li>Et a semper vel maecenast.</li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -320,7 +382,6 @@
       </div>
     </div>
   </section>
-
 
 
 
@@ -417,9 +478,6 @@
     </div>
   </footer>
 
-
-
-
 </div>
 
 <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
@@ -429,14 +487,14 @@
 <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 <script src="assets/fancybox3/dist/jquery.fancybox.min.js"></script>
 <script src="assets/slick.slider/slick.js"></script>
-<script src="assets/swiper/swiper-bundle.min.js"></script>
+<!-- <script src="assets/swiper/swiper-bundle.min.js"></script> -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaRQsAJCZyyD6MbCg0jB_0sdLGEOxt97Y"></script>
 <script src="assets/js/jquery.matchHeight-min.js"></script>
 <script src="assets/js/app.js"></script>
 <script src="assets/js/wow.min.js"></script>
 <script src="assets/select2/select2.min.js"></script>
 <script src="assets/flatpickr/flatpickr.js"></script>
-<script src="assets/js/masonry.pkgd.min.js"></script>
+<!-- <script src="assets/js/masonry.pkgd.min.js"></script> -->
 <script src="assets/js/main.js"></script>
 
 </body>

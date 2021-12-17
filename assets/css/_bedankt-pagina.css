@@ -1,60 +1,62 @@
-.dankje-sec {
-    margin-bottom: 88px;
+.pagina-module-sec {
+    margin-bottom: 98px;
 }
-.dankje-lft-bg {
+.pagina-module-lft-bg {
     position: absolute;
     left: 0;
-    top: -15%;
-    height: 600px;
+    top: -12%;
+    height: 650px;
     width: 49%;
     border-bottom-right-radius: 280px;
 }
-.dankje-cntlr {
+.pagina-module-cntlr {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     position: relative;
 }
-.dankje-rgt {
+.pagina-module-rgt {
     width: 100%;
 }
-.dankje-rgt-wrap {
-    padding: 100px 0;
+.pagina-module-rgt-wrap {
+    /*padding: 100px 0;*/
 }
-.dankje-rgt-desc-title a{
+.pagina-module-rgt-desc-title a{
     font-style: normal;
     font-weight: 600;
-    font-size: 48px;
-    line-height: 68px;
+    /*font-size: 48px;*/
     letter-spacing: -0.02em;
     color: #2E3044;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
 }
-.dankje-rgt-desc-title a:hover{
+.pagina-module-rgt-desc-title a:hover{
     color: #0084A9;
+    text-decoration: none;
 }
-.dankje-rgt-inr ul {
+.pagina-module-rgt-inr ul {
     padding-left: 0;
     padding-bottom: 30px;
 }
-.dankje-rgt-inr ul li{
+.pagina-module-rgt-inr ul li{
     padding: 5px 0 0 20px;
 }
-.dankje-rgt-inr ul li a{
+.pagina-module-rgt-inr ul li a{
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 40px;
     letter-spacing: -0.02em;
-    text-decoration-line: underline;
     color: #0084A9;
     text-decoration: underline;
 }
-.dankje-rgt-inr ul li::before{
+.pagina-module-rgt-inr ul li::before{
     top: 14px;
+    background-image: url(../images/list-icon-blue.png);
 }
-.dankje-rgt-cntlr {
+.pagina-module-rgt-cntlr {
     padding-left: 60px;
+}
+.pagina-module-rgt-inr ul li a:hover{
+    text-decoration: none;
 }

@@ -141,7 +141,9 @@ Containers
 
 }
 
-
+.d-none{
+	display: none!important;
+}
 .page-body-cntlr{
 	max-width: 1920px; 
 	width: 100%;

@@ -1,0 +1,23 @@
+
+/* _____________________-custom sidebar-____________________________*/
+.customSidebar-position{
+    margin-top: -250px!important;
+}
+#customSidebarWrap {
+    width: 100%;
+    min-height: 1px;
+    height: 100%;
+}
+.customSidebar-position .vacature-details-rgt-con-cntlr{
+  padding-top: 35px;
+}
+.customSidebar-position .vacature-details-rgt-col{
+  padding-bottom: 0;
+}
+.customSidebar-position .vacature-details-rgt-col ul li{
+  padding: 5px 0 12px 35px;
+}
+#customSidebarWrap{
+    position: relative;
+    margin-top: 0;
+}
