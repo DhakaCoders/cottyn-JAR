@@ -29,7 +29,7 @@ function fullwidthimgleftWidth(){
 
 
 
-/* custom sidebar */
+/* ________________________________-custom sidebar-_________________________________*/
 if( $('#customSidebar').length ){
     var windowWidth_1920 = $('.page-body-cntlr').outerWidth();
     var containerRightWidth = $('#customSidebarWrap').offset().left;
