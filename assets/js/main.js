@@ -25,9 +25,6 @@ function fullwidthimgleftWidth(){
     fullwidthimgleftWidth();
   });
 
-// fullwidthimgleftWidth();
-
-
 
 /* ________________________________-custom sidebar-_________________________________*/
 if( $('#customSidebar').length ){
